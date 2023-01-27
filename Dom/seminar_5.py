@@ -13,6 +13,7 @@ for i in range(1,len(my_list)):
 '''
 
 def get_data_from_file(nums):
+    path ='D:/Users/timru/Documents/Обучение BI/Python/Dom/35_Add_number.txt'
     data = open(nums, 'r')
     dlist = data.read() + ' '
     dlist = list(map(int, dlist.split()))
